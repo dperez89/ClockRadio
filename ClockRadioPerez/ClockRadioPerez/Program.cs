@@ -10,8 +10,8 @@ namespace ClockRadioPerez
     {
         static void Main(string[] args)
         {
-            ClockRadio davidClockRadio = new ClockRadio();
-            string currentTime = davidClockRadio.ViewTime();
+            ClockRadio davidsClock = new ClockRadio();
+            davidsClock.navigateClockRadioMenu();
             Console.ReadKey();
         }
     }
